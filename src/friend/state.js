@@ -1,5 +1,3 @@
-import { reduce } from "async";
-import { defaultCipherList } from "constants";
 import createReducer from "../common/createReducer";
 
 const ADD = "friend/ADD";
