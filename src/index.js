@@ -28,3 +28,4 @@ store.subscribe(() => {
 
 store.dispatch(addTimeline({ id: 1, desc: "1" }));
 store.dispatch(addTimeline({ id: 2, desc: "2" }));
+store.dispatch(removeTimeline({ id: 1 }));
